@@ -35,3 +35,6 @@ C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\obj\Debug\net9.0\refint\DungeonS
 C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\obj\Debug\net9.0\DungeonSlime.pdb
 C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\obj\Debug\net9.0\DungeonSlime.genruntimeconfig.cache
 C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\obj\Debug\net9.0\ref\DungeonSlime.dll
+C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\bin\Debug\net9.0\MonoGameLibrary.dll
+C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\bin\Debug\net9.0\MonoGameLibrary.pdb
+C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\bin\Debug\net9.0\Content\images\logo.xnb
