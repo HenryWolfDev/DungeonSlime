@@ -39,8 +39,10 @@ public class Game1 : Core
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // prepare sprite batch for rendering
+        // 1. startet das Sammeln
         SpriteBatch.Begin();
+
+        // 2. Diese Bilder werden im Speicher gesammelt, noch nicht gezeichnet.
         // Draw the logo texture to the center
         SpriteBatch.Draw(
             _logo,
@@ -76,6 +78,8 @@ public class Game1 : Core
             new Vector2(Window.ClientBounds.Width - _logo.Width, 0),
             Color.White
         );
+
+        // 3. Jetzt wird alles zusammen an die GPU geschickt und auf dem Bildschirm gezeichnet.
         // Always end the sprite batch when finished.
         SpriteBatch.End();
 
