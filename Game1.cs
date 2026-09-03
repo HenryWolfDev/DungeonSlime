@@ -39,10 +39,44 @@ public class Game1 : Core
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
+        // prepare sprite batch for rendering
         SpriteBatch.Begin();
-
+        // Draw the logo texture to the center
+        SpriteBatch.Draw(
+            _logo,
+            new Vector2(Window.ClientBounds.Width, Window.ClientBounds.Height) * 0.5f,
+            null,
+            Color.White * 0.5f,
+            0.0f,
+            new Vector2(_logo.Width, _logo.Height) * 0.5f,
+            1f,
+            SpriteEffects.None,
+            0.0f
+        );
+        // Draw the logo at 0.0
         SpriteBatch.Draw(_logo, Vector2.Zero, Color.White);
-
+        // Draw the logo left bottom
+        SpriteBatch.Draw(
+            _logo,
+            new Vector2(0, Window.ClientBounds.Height - _logo.Height),
+            Color.White
+        );
+        // Draw the logo right bottom
+        SpriteBatch.Draw(
+            _logo,
+            new Vector2(
+                Window.ClientBounds.Width - _logo.Width,
+                Window.ClientBounds.Height - _logo.Height
+            ),
+            Color.White
+        );
+        // Draw the logo right top
+        SpriteBatch.Draw(
+            _logo,
+            new Vector2(Window.ClientBounds.Width - _logo.Width, 0),
+            Color.White
+        );
+        // Always end the sprite batch when finished.
         SpriteBatch.End();
 
         base.Draw(gameTime);
