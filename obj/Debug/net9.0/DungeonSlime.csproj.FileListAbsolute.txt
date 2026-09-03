@@ -38,3 +38,4 @@ C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\obj\Debug\net9.0\ref\DungeonSlim
 C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\bin\Debug\net9.0\MonoGameLibrary.dll
 C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\bin\Debug\net9.0\MonoGameLibrary.pdb
 C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\bin\Debug\net9.0\Content\images\logo.xnb
+C:\Users\Anwender\Desktop\MonoGame\DungeonSlime\bin\Debug\net9.0\Content\images\atlas.xnb
