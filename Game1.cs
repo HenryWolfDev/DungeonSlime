@@ -75,7 +75,7 @@ public class Game1 : Core
             Color.White,
             0.0f,
             Vector2.One,
-            4.0f,
+            10.0f,
             SpriteEffects.None,
             1.0f
         );
